@@ -15,6 +15,27 @@ alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
 alias g="git"
 
+# Shortcuts
+alias d="cd ~/Documents/Dropbox"
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias p="cd ~/Projects"
+alias git=hub
+alias g="git"
+alias h="history"
+alias j="jobs"
+
+# Git related aliases
+alias ga="git add"
+alias gc="git commit"
+alias gd="g d"
+alias gl="g l"
+alias gs="git status"
+alias gp="git push"
+alias gf="git fetch"
+alias gfo="git fetch origin"
+alias gr="git rebase"
+
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
