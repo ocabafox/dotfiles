@@ -36,6 +36,7 @@ alias gf="git fetch"
 alias gfo="git fetch origin"
 alias gr="git rebase"
 alias rst="git reset --hard origin/master"
+alias gpom="g pull origin master --rebase"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
