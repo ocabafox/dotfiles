@@ -40,6 +40,10 @@ alias gpom="g pull origin master --rebase"
 
 # Docker related aliases
 alias dps="docker ps"
+alias dcup="docker-compose up"
+alias dcbuild="docker-compose build"
+alias dcdown="docker-compose down"
+
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
