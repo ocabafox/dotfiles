@@ -38,6 +38,9 @@ alias gr="git rebase"
 alias rst="git reset --hard origin/master"
 alias gpom="g pull origin master --rebase"
 
+# Docker related aliases
+alias dps="docker ps"
+
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
